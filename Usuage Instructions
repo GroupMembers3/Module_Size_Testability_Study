@@ -1,0 +1,21 @@
+Setup the Environment
+First, install the required dependencies:
+"pip install requests pandas radon pytest pytest-cov mutpy matplotlib seaborn"
+
+Run Data Extraction
+To fetch repositories from GitHub:
+"python analysis/data_extraction.py"
+This will generate dataset/github_repos.csv containing repository details.
+
+Run Module Analysis
+To analyze module size and complexity:
+"python analysis/metrics_analysis.py"
+This will generate dataset/module_metrics.csv with LOC, complexity, and maintainability scores.
+
+Run Testability Analysis
+To compute code coverage and mutation score:
+"python analysis/testability_analysis.py"
+This will generate dataset/testability_metrics.csv with testability metrics.
+
+Verify Results
+All CSV files will be generated inside the dataset/ folder.
