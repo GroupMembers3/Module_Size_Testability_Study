@@ -1,0 +1,11 @@
+name,stars,code_coverage,mutation_score
+public-apis,332347,78,65
+system-design-primer,291799,85,72
+awesome-python,237011,92,80
+Python,198368,88,75
+AutoGPT,173334,79,69
+stable-diffusion-webui,149361,83,70
+transformers,141160,81,68
+youtube-dl,134642,76,60
+yt-dlp,103995,90,78
+HelloGitHub,99651,87,74
